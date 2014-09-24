@@ -1,6 +1,6 @@
 package com.thoughtworks.workshop.book;
 
-import android.text.TextUtils;
+import static android.text.TextUtils.join;
 
 /**
  * Created by wxie on 9/18/14.
@@ -38,7 +38,7 @@ public class Book {
     }
 
     public String getInformation() {
-        return TextUtils.join(" / ", new String[]{getAuthor(), getPublisher(), getPublishDate()});
+        return join(" / ", new String[]{getAuthor(), getPublisher(), getPublishDate()});
     }
 
     public String getAuthor() {
