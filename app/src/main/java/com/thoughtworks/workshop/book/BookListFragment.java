@@ -34,7 +34,7 @@ public class BookListFragment extends Fragment implements SwipeRefreshLayout.OnR
 
     private static final String DATA_URL = "https://api.douban.com/v2/book/search?tag=%s&count=%d&start=%d";
     private static final String DATA_TAG = Uri.encode("编程");
-    private static final int DATA_PER_PAGE = 40;
+    private static final int DATA_PER_PAGE = 20;
     private static final int DATA_INITIAL_START = 0;
 
     private ListView listView;
@@ -135,6 +135,7 @@ public class BookListFragment extends Fragment implements SwipeRefreshLayout.OnR
                     swipeRefreshLayout.setRefreshing(false);
                 }
                 hasMoreItems = data.getTotal() - (data.getStart() + data.getCount()) > 0;
+                adapter.clear();
                 adapter.addAll(data.getBookArray());
             }
         }.execute(getDataUrl(DATA_INITIAL_START));
