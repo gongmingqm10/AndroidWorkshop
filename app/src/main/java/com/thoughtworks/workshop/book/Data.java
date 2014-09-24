@@ -42,7 +42,7 @@ public class Data {
 
         for (int i = 0; i < array.length(); i++) {
             JSONObject object = (JSONObject) array.opt(i);
-            books.add(new Book(object.optString("title"), object.optString("image"), object.optJSONArray("author").toString(), object.optString("publisher"), object.optString("pubdate"), object.optString("summary"), object.optJSONObject("rating").optDouble("average")));
+            books.add(new Book(object.optString("title"), object.optJSONObject("images").optString("large"), object.optJSONArray("author").toString(), object.optString("publisher"), object.optString("pubdate"), object.optString("summary"), object.optJSONObject("rating").optDouble("average")));
         }
 
         return books;
