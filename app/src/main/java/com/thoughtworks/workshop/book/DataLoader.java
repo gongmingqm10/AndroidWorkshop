@@ -24,9 +24,10 @@ public final class DataLoader {
             BufferedInputStream inputStream = new BufferedInputStream(connection.getInputStream());
 
             byte[] buffer = new byte[1024];
+            int length;
 
-            while (inputStream.read(buffer) != -1) {
-                contentBuilder.append(new String(buffer, "UTF-8"));
+            while ((length = inputStream.read(buffer)) != -1) {
+                contentBuilder.append(new String(buffer, 0, length, "UTF-8"));
             }
 
             inputStream.close();
