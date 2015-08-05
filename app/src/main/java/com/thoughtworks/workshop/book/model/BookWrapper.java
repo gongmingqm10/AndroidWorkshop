@@ -1,4 +1,4 @@
-package com.thoughtworks.workshop.book;
+package com.thoughtworks.workshop.book.model;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by wxie on 9/18/14.
  */
-public class Data {
+public class BookWrapper {
 
     private static final String TAG = "Data";
 
@@ -20,7 +20,7 @@ public class Data {
 
     private final JSONObject mJSONObject;
 
-    public Data(JSONObject jsonObject) {
+    public BookWrapper(JSONObject jsonObject) {
         this.mJSONObject = jsonObject;
     }
 
@@ -36,7 +36,7 @@ public class Data {
         return mJSONObject.optInt(TOTAL);
     }
 
-    public List<Book> getBookArray() {
+    public List<Book> getBookList() {
         JSONArray array = mJSONObject.optJSONArray(BOOKS);
         List<Book> books = new ArrayList<Book>(array.length());
 
@@ -48,8 +48,8 @@ public class Data {
         return books;
     }
 
-    public static Data from(JSONObject jsonObject) {
-        return new Data(jsonObject);
+    public static BookWrapper from(JSONObject jsonObject) {
+        return new BookWrapper(jsonObject);
     }
 
     @Override

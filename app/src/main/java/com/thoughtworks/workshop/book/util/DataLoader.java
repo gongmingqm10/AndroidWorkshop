@@ -1,7 +1,9 @@
-package com.thoughtworks.workshop.book;
+package com.thoughtworks.workshop.book.util;
 
 import android.content.Context;
 import android.util.Log;
+
+import com.thoughtworks.workshop.book.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -16,7 +18,7 @@ public final class DataLoader {
 
     private static final String TAG = "DataLoader";
 
-    public static final JSONObject loadJSONData(Context context) {
+    public static JSONObject loadJSONData(Context context) {
         JSONObject json = null;
 
         InputStream in = context.getResources().openRawResource(R.raw.data);
@@ -27,11 +29,7 @@ public final class DataLoader {
             in.read(buffer);
             in.close();
             json = new JSONObject(new String(buffer, UTF_8.toString()));
-        } catch (UnsupportedEncodingException e) {
-            Log.e(TAG, e.getLocalizedMessage(), e);
-        } catch (IOException e) {
-            Log.e(TAG, e.getLocalizedMessage(), e);
-        } catch (JSONException e) {
+        } catch (JSONException | IOException e) {
             Log.e(TAG, e.getLocalizedMessage(), e);
         } finally {
             if (in != null) {

@@ -1,4 +1,4 @@
-package com.thoughtworks.workshop.book;
+package com.thoughtworks.workshop.book.model;
 
 import android.text.TextUtils;
 
