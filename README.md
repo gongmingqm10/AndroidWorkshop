@@ -19,3 +19,11 @@ We use this branch to store the process of how to deal with image cache in Andro
 ### Step1 -> Step 2
 
 1. 多线程操作导致图片读取错位；
+
+### Step2 -> Step3
+
+1. 使用 LruCache 进行 Memory Cache
+
+### Step3 -> Step4
+
+1. 使用 DiskLruCache 进行磁盘缓存

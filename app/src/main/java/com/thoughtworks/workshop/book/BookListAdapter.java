@@ -59,10 +59,7 @@ public class BookListAdapter extends ArrayAdapter<Book> {
             information.setText(book.getInformation());
             ratingBar.setRating((float) (book.getRating() / 2));
             ratingVal.setText(String.valueOf(book.getRating()));
-//            image.setImageResource(R.drawable.ic_default_cover);
-
             ImageLoader.getInstance().loadImage(image, book.getImage());
-
         }
     }
 }
