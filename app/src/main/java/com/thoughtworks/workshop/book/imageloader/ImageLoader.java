@@ -24,13 +24,12 @@ import libcore.io.DiskLruCache;
 
 public class ImageLoader {
 
-    private final int IMAGE_LOAD_SUCCESS = 200;
-    private final int IMAGE_LOAD_ERROR = 400;
+    private static final int IMAGE_LOAD_SUCCESS = 200;
+    private static final int IMAGE_LOAD_ERROR = 400;
 
     private static ImageLoader instance;
 
-    private ImageView currentImageView;
-    private LruCache<String, Bitmap> memoryCache;
+    private static LruCache<String, Bitmap> memoryCache;
 
     private DiskLruCache mDiskLruCache;
     private final Object mDiskCacheLock = new Object();
@@ -108,24 +107,24 @@ public class ImageLoader {
     }
 
     private void loadImageFromURL(final ImageView imageView, final String urlString) {
+        final String uniqueKey = AppUtils.hashKeyForDisk(urlString);
+        imageView.setTag(uniqueKey);
+        final Handler handler = new ImageHandler(imageView);
+
         new Thread(new Runnable() {
             @Override
             public void run() {
+
                 try {
                     URL url = new URL(urlString);
                     Bitmap imageBitmap = BitmapFactory.decodeStream(url.openConnection().getInputStream());
 
-                    final String uniqueKey = AppUtils.hashKeyForDisk(urlString);
 
                     if (imageBitmap == null) {
                         throw new IOException();
                     } else {
                         addBitmap(uniqueKey, imageBitmap);
                     }
-
-                    currentImageView = imageView;
-                    currentImageView.setTag(uniqueKey);
-
                     Message message = new Message();
                     message.what = IMAGE_LOAD_SUCCESS;
                     message.obj = uniqueKey;
@@ -139,26 +138,24 @@ public class ImageLoader {
         }).start();
     }
 
-    private Handler handler = new Handler() {
+    private static class ImageHandler extends Handler {
+        private final ImageView imageView;
+        public ImageHandler(final ImageView imageView) {
+            this.imageView = imageView;
+        }
+
         @Override
-        public void dispatchMessage(Message msg) {
-            if (currentImageView == null) return;
-            switch (msg.what) {
-                case IMAGE_LOAD_SUCCESS:
-                    String key = (String) msg.obj;
-                    Bitmap targetBitmap = memoryCache.get(key);
-                    if (targetBitmap != null && key.equals(currentImageView.getTag())) {
-                        currentImageView.setImageBitmap(targetBitmap);
-                    } else {
-                        currentImageView.setImageResource(R.drawable.ic_default_cover);
-                    }
-                    break;
-                case IMAGE_LOAD_ERROR:
-                    currentImageView.setImageResource(R.drawable.ic_default_cover);
-                    break;
+        public void handleMessage(Message msg) {
+            String key = (String) msg.obj;
+            if (msg.what == IMAGE_LOAD_SUCCESS && key.equals(imageView.getTag())) {
+                Bitmap targetBitmap = memoryCache.get(key);
+                imageView.setImageBitmap(targetBitmap);
+            } else if (msg.what == IMAGE_LOAD_ERROR) {
+                imageView.setImageResource(R.drawable.ic_default_cover);
             }
         }
-    };
+    }
+
 
 
     private Bitmap getBitmap(String key) {

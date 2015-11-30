@@ -1,0 +1,543 @@
+"Found Camera" = "查找摄像机: %@";
+"Pair Button" = "匹配";
+"Cancel Button" = "取消";
+"Continue Button" = "继续";
+"Camera Roll Tap to Select" = "点击选中";
+"PairingView Title" = "摄相机";
+
+"LoadingHTML" = "<html><head><style type='text/css'> html, body { margin: 0; padding: 0; width: 100%; height: 100%; font-family:PFDinTextPro-Regular,Arial; font-size:24px; font-weight:bold; background-color:black; color: white; display: table-cell; vertical-align: middle; text-align: center; } html { display: table; }</style></head><body>加载中...<body></html>";
+
+"empty ssid" = "";
+
+"BUSY" = "摄像机忙";
+"Loading" = "加载中...";
+"PullToRefresh" = "下拉刷新";
+
+/* Drawer Menu Navigation */
+"Home" =  "主页";
+"My Media" = "我的媒体";
+"Local Media" = "本地媒体";
+"Products" = "产品";
+"Support" = "支持";
+"Settings" = "设置";
+
+/* Home Screen */
+"VOD" = "GOPRO 频道";
+"POD" = "今天的相片";
+"Log In Or Sign Up" = "登录或注册";
+"No Cameras Connected" = "无摄相机连接中";
+"Searching for GoPro" = "查找设备 GoPro";
+"Update Camera" = "安装更新";
+
+/* Customer Support */
+"CustomerSupport_ContactTitle" = "联系客服";
+"CustomerSupport_ContactMessage %@" = "请拨打 %@";
+"CustomerSupport_FindMoreAnswers" = "查找更多支持 GoPro.com/support";
+"CustomerSupport_FindMoreAnswers_SupportUrl" = "GoPro.com/support";
+"GET SUPPORT" = "获取支持";
+"Get Support" = "获取支持";
+
+
+/* Camera Modes */
+"Video" = "录相";
+"VideoPhoto" = "录相 + 照片";
+"VideoLooping" = "循环";
+"Photo" = "照片";
+"ContinuousShot" = "连拍";
+"PhotoNight" = "夜间";
+"Burst" = "连拍";
+"TimeLapse" = "延时";
+"NightLapse" = "隔夜";
+"SelfTimer" = "自拍";
+
+/* 3D */
+"Video3D" = "3D 视频";
+"Photo3D" = "3D 照片";
+"Burst3D" = "连拍";
+"TimeLapse3D" = "3D拍照延时";
+"Dual" = "视频 + 拍照延时";
+"3DPowerOnButtonTitle" = "左摄相 / 右摄相";
+"DualHero" = "Dual Hero";
+"RightCamera" = "右报相头";
+"LeftCamera" = "左摄相头";
+
+/* 3D alert Messages */
+"Incompatible3DCamerasAlertTitle" = "摄像头不兼容";
+"Incompatible3DCamerasAlertMessage" = "一个或多个摄相头不兼容Dual HERO系统。";
+
+"LowBatteryWarning3DAlertTitle" = "电量将耗尽";
+"LowBatteryWarning3DCameraAlertMessage %@" = "该%@设备在Dual Hero系统里电量不足。";
+
+"NoSDCardWarning3DAlertTitle" = "没有找到存储卡";
+"NoSDCardWarning3DCameraAlertMessage %@" = "%@，该设备在Dual Hero系统里存储卡缺失。";
+
+"SDCardFullWarning3DAlertTitle" = "存储卡已满";
+"SDCardFullWarning3DCameraAlertMessage %@" = "%@，设备存储卡已满，请替换再继续使用。";
+
+"SDCardErrorWarning3DAlertTitle" = "存储卡错误";
+"SDCardErrorWarning3DCameraAlertMessage %@" = "%@，设备存储卡错误，请更换再继续使用。";
+
+/* Camera Roll */
+"All" = "全部";
+"Photos" = "照片";
+"Videos" = "视频";
+"No Media Files" = "没有记录";
+"Single Media File" = "单文件";
+"Many Media Files" = "多文件";
+"Albums" = "相册";
+"GoPro Album" = "GoPro 相册";
+"GoPro Media" = "GoPro资源文件";
+"Select All" = "全选";
+"Deselect All" = "取消全选";
+"Pull To Refresh" = "下拉刷新";
+"No Local Media Files" = "从GoPro下载的资源文件将会出现在这。";
+
+
+"HI_RES_NOT_AVAILABE_FOR_DOWNLOAD %@" = "你的 %@ 不支持该视频分辨率。  Try shooting in 1080 at 30 fps for the best downloadable videos.";
+"CopyMessage %@" = "拷贝到 %@?";
+"CopyMessageWhen3DConnected %@" = "You are Copying files from %@ only";
+
+"High Resolution %@ %@" = "高分辨率 (%@) %@";
+"Low Resolution %@ %@" = "低分辨率 (%@) %@";
+"Copy Group Message %d" = "你想拷贝这张照片或者所有照片到这个组 (%d) ?";
+"Copy This Image" = "拷贝这张图像";
+"Copy This Group %d" = "拷贝这个组 (%d)";
+
+/* Camera Roll Error Messages */
+"Photo Acess Restricted Error Message" = "GoPro没有获得访问您照片的权限。这可能是因为家长控制导致的。";
+"Photo Acess Denied Error Message" = "GoPro没有获得访问您照片的权限。这可能是因为隐私设置导致的。";
+"Photo Acess Global Error Message" = "GoPro没有获得访问您照片的权限。这可能是因为家长控制或是隐私设置导致的。";
+
+"ProLevelSettings %@" = "不支持回放\n你的 %@ 不支持回放该文件。";
+"ProLevelSettingsAlertTitle" = "不支持拷贝";
+"ProLevelSettingsNotCopyableAlertMessageSingleFile %@" = "你的 %@ 不支持拷贝该文件。请将文件拷贝到您的电脑然后连接到GoPro或者电视进行浏览。";
+"ProLevelSettingsNotCopyableAlertMessageMultipleFiles %@" = "你的 %@ 不支持拷贝单个或多个文件，请将文件拷贝到您的电脑然后连接到GoPro或者电视进行浏览。";
+"ProLevelSettingsAlertMessageSingleFile %@" = "你的 %@ 不支持拷贝或回放该文件。请将文件拷贝到您的电脑然后连接到GoPro或者电视进行浏览。";
+"ProLevelSettingsAlertMessageMultipleFiles %@" = "你的 %@ 不支持拷贝或回放单个或多个文件。请将文件拷贝到您的电脑然后连接到GoPro或者电视进行浏览。";
+
+"CameraLowBatteryAlertTitle" = "电量过低警告";
+"CameraLowBatteryAlertMessage" = "你的摄相机电量过低。请替换电池。";
+
+"MobileDeviceLowBatteryAlertTitle" = "低电量警告";
+"MobileDeviceLowBatteryCopyAlertMessage %@ %@" = "%@'s 电量剩余 %@. 文件拷贝可能会失败。";
+"MobileDeviceLowBatteryDeleteAlertMessage" = "%@'s 电量剩余 %@. 文件删除可能会失败。";
+
+"WeakNetworkSignalAlertTitle" = "Wi-Fi信号弱";
+"WeakNetworkSignalAlertMessage" = "摄像机Wi-Fi信号微弱。请距离您的摄像机更靠近一些，或者将摄相机进行充电。";
+
+"LowDiskspaceAlertTitle" = "空间不足";
+"LowDiskspaceAlertMessageIPhone" = "您的iPhone没有足够的空间来传输这个文件。";
+"LowDiskspaceAlertMessageIPad" = "您的iPad没有足够的空间来传输这个文件。";
+
+"FileCopyFailedAlertTitle" = "文件拷贝失败";
+"FileCopyFailedAlertMessage" = "文件拷贝失败很可能因为与摄相机连接中断，请秒后再试。";
+
+"FileCopyFailedDueToDiskSpaceAlertTitle" = "需要更多空间";
+"FileCopyFailedDueToDiskSpaceAlertMessage %@" = "请清理出更多空间在%@上，然后再试一遍";
+
+"ConnectionLostAlertTitle" = "连接中断";
+"ConnectionLostAlertMessage" = "您已和您的摄相机Wi-Fi断开连接。请检查您的摄相机和移动设备的Wi-Fi设置。";
+"NewCameraConnectionAlertMessage" = "您已经和您的摄相机Wi-Fi断开连接。GoPro应用程序已经连接上另一台摄相机。";
+
+"OK" = "好";
+
+"Delete Last Message" = "将最新文件从SD卡上删除？";
+"Delete Last" = "删除最新文件";
+
+"Delete Message" = "从GoPro的SD卡上删除？";
+"Delete" = "删除";
+"Delete This Image" = "删除这张图片";
+"Delete This Group %d" = "删除该组：(%d)";
+"Cancel" = "取消";
+"Cancel All" = "取消全部";
+"Deleting..." = "正在删除...";
+"Deleted" = "已删除";
+"Failed to Delete" = "不能删除";
+
+"Reset" = "重置";
+
+"Home Screen" = "主页";
+"Back to Camera List" = "返回";
+"Starting Preview" = "开始预览";
+"Preview not Supported" = "预览不可用";
+
+"Firmware Update Required Title" = "软件需要更新";
+"Firmware Update Required Message" = "您需要更新您的摄相机软件，以保证您可以使用到GoPro应用的新功能。去往gopro.com/update以了解更多。";
+
+/* setting commands */
+"Delete All Message" = "删除SD卡上所有文件？";
+"Delete All" = "删除所有文件（格式化）";
+"Done" = "完成";
+
+"SwitchToRCMessage" = "远程连接到Wi-Fi会导致与您的摄相机会与GoPro应用断开连接。";
+"SwitchtoRCConfirmButton" = "好的";
+"Recording..." = "录制中...";
+
+"SuperView" = "SuperView";
+"Custom" = "自定义";
+
+/* Copying Media */
+"Pending" = "等待中...";
+"Downloading" = "下载中...";
+"Copying" = "拷贝中...";
+"Cancelled" = "已取消";
+"Failed" = "失败";
+"Finished" = "完成";
+"No" = "不";
+"Time Remaining" = "提醒";
+
+/* Camera Controls Overlay */
+"Camera Controls" = "摄相机控制器";
+"Modes" = "模式";
+
+"charging_camera_battery" = "充电中...";
+"charging_camera_battery_ex %d" = "充电中 (%d%%)";
+"camera_battery %d" = "%d%%";
+
+/* bacpac battery display in settings */
+"Battery Charging" = "电池充电上";
+"Using Camera Battery" = "用摄像机电源";
+/*============================================ Wayde Sun ======================================================*/
+
+/* errors */
+"couldNotLoadVideoErrorWithURL %@" = "不能加载视频:\n %@";
+"couldNotLoadVideoError" = "无法恢复该视频文件";
+"videoIsNotPlayableWithURL" = "你的设备无法回放当前格式视频。";
+"videoIsNotPlayable" = "你的设备不支持当前视频格式的回放。";
+
+"needMoreStorageSpaceDescription %@" = "不能复制媒体到 %@。";
+"needMoreStorageSpaceReason" = "你的设备没有足够存储空间用于传输文件。";
+
+"Error" = "错误";
+"UnknownErrorOccurred" = "发生了未知错误";
+
+/* SD Memory Card display status*/
+"NoSDMemoryCard" = "没有SD卡";
+"SDMemoryCardError" = "SD卡错误";
+"SDMemoryCardFull" = "SD卡已满";
+
+/* alerts from video-of-the-day */
+// a4a
+"NoConn" = "无连接建立";
+"NoConnMessage" = "App需要网络连接或者启用Wi-Fi使GoPro正常工作。";
+"SETUPHELP" = "安装帮助";
+"CLOSE" = "关闭";
+
+// b1
+"AppSetup" = "GoPro应用安装";
+"AppSetupMessage %@ %@" = "Make sure your GoPro's Wi-Fi is turned on. In your GoPro's Wi-Fi menu, select GoPro App.\n\nIn your %@'s Wi-Fi settings, connect to your camera's network name. Relaunch your GoPro App.\n\nIf connection fails, select Renew Lease in your %@'s Wi-Fi settings.";
+"AppFixNetworkSetupMessage" = "• GoPro App is having difficulty communicating with your GoPro camera.\n• Select Renew Lease in your %@'s Wi-Fi settings.\n• Relaunch your GoPro App.";
+
+/* Airplay messages */
+"AirplayTitle" = "Enable Airplay to Mirror Your Screen";
+"AirplayMessage %@" = "Swipe up from the bottom of your screen to access your %@'s Control Center, then select the device you'd like to mirror.";
+
+"NoVOD" = "Unable to Play\nGoPro Channel";
+"NoVODMessage" = "Internet access is required to view GoPro Channel.";
+"NoPOD" = "Unable to Display\n Photo of the Day";
+"NoPODMessage" = "Internet access is required to view Photo of the Day.";
+"NoEcommerce" = "Internet Connection Required";
+"NoEcommerceMessage" = "Internet access is required to visit gopro.com.";
+"InetLost" = "Internet Connection Lost";
+"InetLostMessage %@" = "Please check the internet settings on your %@.";
+
+/* Video Preview Status */
+"WiFiNotConnected" = "Be sure your camera is on and\nconnected to the Wi-Fi network.";
+"WiFiBacPacNotConnected" = "Wi-Fi BacPac™ Not Connected";
+"WiFiBacPacNotAttached" = "Wi-Fi BacPac™ Not Attached";
+"CameraOFF" = "CAMERA OFF";
+
+/* Global Application Settings */
+"AppSettings" = "Settings";
+"CameraUpdates" = "Camera Updates";
+"AutoDownloadSetting" = "Auto Download";
+"LicenseAgreement" = "License Agreement";
+"PrivacyPolicy" = "Privacy Policy";
+"AutoDownloadDescription" = "Automatically download camera updates.";
+"MobileDataSetting" = "Use Cellular Data";
+"MobileDataDescription" = "Please note that using cellular data for automatic downloads of camera software may incur carrier charges, depending on your usage plan.";
+"CameraModelsDescription" = "Watch these models for camera software updates.";
+
+/* Camera Software Management */
+"ModelsWatchlist" = "Camera Models";
+"ModelsWatchlistDescription" = "Automatically download the latest software updates for the following cameras.";
+"CameraHistory" = "Camera History";
+"LastChecked %@" = "Last Checked %@";
+"LastUpdated %@" = "Last Updated %@";
+"DownloadingVersion %@" = "Downloading %@";
+"AvailableVersion %@" = "Available Version %@";
+
+"CurrentVersion %@" = "Version %@";
+"CameraSoftwareManagement" = "Camera Models";
+"CameraSoftwareVersionInfoTitle" = "Camera Update Available";
+"CameraSoftwareVersionInfoContinue" = "Install";
+"CameraSoftwareVersionInfoCancel" = "Later";
+"LegalDisclaimer"= "Legal Disclaimer";
+"LegalDisclaimerAgree"= "Agree";
+"LegalDisclaimerDisagree"= "Disagree";
+"CameraSoftwareUpdateTitle" = "Install Update";
+"CameraSoftwareUpdateStatePending" = "Waiting for Camera...";
+"CameraSoftwareUpdateStateUploading" = "Transferring files to Camera";
+"CameraSoftwareUpdateStateUncompressing" = "Validating...";
+"CameraSoftwareUpdateStateUncompressingWarning" = "Please ...\n• Do not exit the GoPro App.\n• Do not turn off your GoPro camera.";
+"CameraSoftwareUpdateStateCancelled" = "Software Update Cancelled";
+"CameraSoftwareUpdateStateFailed" = "Software Update Not Completed";
+"CameraSoftwareUpdateStateFinished" = "Software Update Completed";
+"CameraSoftwarePostUpdateInstructionsTitle" = "Starting Installation";
+"CameraSoftwarePostUpdateInstructionsDetail" = "• During the update, your camera automatically powers off and on.\n\n• When the update is complete, your camera displays the camera status screen.\n\n• You might need to reconnect to your camera's Wi-Fi network. For help, visit gopro.com/support.";
+"CameraSoftwareUpdateCompleteSuccessfulTitle" = "Update Complete";
+"CameraSoftwareUpdateCompleteSuccessfulDetail" = "Your camera's software was updated successfully.";
+"CameraSoftwareUpdateCompleteFailedTitle" = "Update Not Successful";
+"CameraSoftwareUpdateCompleteFailedDetail" = "Your camera's software update could not be completed.\n\nYou can try again, or visit gopro.com/support for help.";
+"CameraSoftwareUpdateTimeRemaining %@" = "About %@ remaining...";
+"CameraSoftwareUpdateMultekDisplay" = "Camera Display";
+"MobileDataDisclaimerAlertTitle" = "Cellular Data Usage";
+"MobileDataDisclaimerAlertDetail" = "The GoPro App needs to connect to the Internet using your cellular connection. Please note that using cellular data may incur carrier charges, depending on your usage plan. To connect via Wi-Fi in the future please set Use Cellular Data to OFF.";
+
+
+/* Pre Flight Error Messages for OTA */
+"OTAPreFlightErrorCameraOffTitle" = "Camera is Off";
+"OTAPreFlightErrorCameraOffDetail" = "Please power on your camera.";
+
+"OTAPreFlightErrorCameraBusyTitle" = "Camera is Busy";
+"OTAPreFlightErrorCameraBusyDetail" = "Cannot install update while recording.";
+
+"OTAPreFlightErrorCameraLowBatteryTitle" = "Battery Level";
+"OTAPreFlightErrorCameraLowBatteryDetail" = "Your camera's battery is too low.";
+
+"OTAPreFlightErrorMobileDeviceLowBatteryTitle %@" = "%@ Battery Low";
+"OTAPreFlightErrorMobileDeviceLowBatteryDetail %@" = "Connect your %@ to a power source.";
+
+"OTAPreFlightErrorSDCardMissingTitle" = "MicroSD Card";
+"OTAPreFlightErrorSDCardMissingDetail" = "Check your camera's microSD card.";
+
+"OTAPreFlightErrorSDCardFullTitle" = "Not Enough Space";
+"OTAPreFlightErrorSDCardFullDetail" = "microSD card is too full to install the update.";
+
+"OTAPreFlightErrorWeakNetworkSignalTitle" = "Wi-Fi Signal Strength";
+"OTAPreFlightErrorWeakNetworkSignalDetail" = "Try moving closer to the camera.";
+
+/* Post Flight Error Messages for OTA */
+"OTAPostFlightErrorTitle" = "The update could not be installed on the camera.";
+"OTAPostFlightErrorDetail[0]" = "Success";
+"OTAPostFlightErrorDetail[1]" = "Your camera's microSD card does not have enough space to install the camera software update. Please delete some files and try again.";
+"OTAPostFlightErrorDetail[2]" = "The software update could not be installed on your camera. Please cancel and try again.  If this issue persists, visit gopro.com/support for help."; // "SHA1 validation did not pass.";
+"OTAPostFlightErrorDetail[3]" = "The software update could not be installed on your camera. Please cancel and try again.  If this issue persists, visit gopro.com/support for help."; // "Could not unzip update.";
+"OTAPostFlightErrorDetail[4]" = "The software update could not be installed on your camera. Please cancel and try again.  If this issue persists, visit gopro.com/support for help."; // "No file uploaded.";
+"OTAPostFlightErrorDetail[5]" = "The software update could not be installed on your camera. Please cancel and try again.  If this issue persists, visit gopro.com/support for help."; // "Could not create new file on MicroSD card.";
+"OTAPostFlightErrorDetail[6]" = "microSD card is not available.  Please insert a microSD and try again.";
+"OTAPostFlightErrorDetail[7]" = "The software update could not be installed on your camera. Please cancel and try again.  If this issue persists, visit gopro.com/support for help."; // "MISC directory could not be created.";
+"OTAPostFlightErrorDetail[8]" = "The software update could not be installed on your camera. Please cancel and try again.  If this issue persists, visit gopro.com/support for help."; // "tmp location flag is not set (DirectToSD).";
+"OTAPostFlightErrorDetail[9]" = "The software update could not be installed on your camera. Please cancel and try again.  If this issue persists, visit gopro.com/support for help."; // "Unknown error.";
+"OTAPostFlightErrorDetail[-999]" = "Update Cancelled.";
+"OTAPostFlightErrorDetail[-1003]" = "Please make sure your camera is on and try again.";
+"OTAPostFlightErrorCode %d" = "(Error code: %d)";
+
+/* Wifi Settings */
+"WifiSettingsTitle" = "Camera Wi-Fi Settings";
+"WifiSettingsWelcomeTitle" = "Please update your camera's network name and password.";
+"WifiSettingsWelcomeBackTitle" = "Update your GoPro camera's Wi-Fi Settings.";
+"WifiSettingsSSIDFooter" = "This will be the name used to identify your GoPro camera from the list of available networks in your device's Wi-Fi Settings Menu.";
+"WifiSettingsSSIDPlaceholder" = "8 to 31 characters";
+"WifiSettingsPasswordHeader" = "Password";
+"WifiSettingsPasswordFooter" = "This will be the password required to connect to your GoPro camera in your device's Wi-Fi Settings Menu.";
+"WifiSettingsPasswordNewPlaceholder" = "8 to 31 characters";
+"WifiSettingsSubmitHeader" = "When the changes are applied, you will have to re-connect to your camera (using the new name and password).";
+"WifiSettingsSubmitLabel" = "Apply Changes";
+"WifiSettingsSubmitActionTitle" = "Apply Changes to Wi-Fi Network?";
+"WifiSettingsSubmitActionButton" = "Go for it!";
+"WifiSettingsInstructionsHeader" = "Your Wi-Fi settings are updated, but you need to reconnect to your camera.";
+"WifiSettingsInstructionsMessage" = "• Visit your device's Wi-Fi settings to reconnect to your camera's network.\n\n• Note: If you are unable to connect, you may have to \"Forget this network\" and then enter your new password.";
+"WifiSettingsInstructionsMessagePowerOff" = "• Please power cycle your camera and visit your device's Wi-Fi settings to reconnect to your camera's network.\n\n• Note: If you are unable to connect, you may have to \"Forget this network\" and then enter your new password.";
+"WifiSettingsInstructionsMessageNetwork %@" = "Your camera will appear as:\n%@";
+"WifiSettingsInstructionsMessagePassword %@" = "Your password is:\n%@";
+
+"WifiSettingsCharacterLimitsError %@" = "%@ must contain 8 to 31 characters";
+"WifiSettingsInvalidCharacterError %@" = "%@ can contain letters, numbers or special characters _ - @";
+"WifiSettingsSameDefaultPasswordError %@" = "%@ cannot be \"goprohero\".";
+"WifiSettingsSameSSIDError" = "You must change the Network Name";
+
+/* Camera Settings */
+"GPCAMERA_GROUP_CAMERA_SETTINGS_ID" = "Camera Settings";
+
+// Support backwards compatibility of Camera Model Name not saved in history
+// Needed for App upgrades prior to 2.3
+// See GPCameraManagementViewController for bug#16102
+// Reference: https://wiki.gopro.com/display/CS/Unifying+Model+Number,+FW+Version+String,+Model+String
+"GPCAMERA_MODEL_ID" = "Camera Model";
+"GPCAMERA_MODEL_ID[HD1.01]" = "Hero 1";
+"GPCAMERA_MODEL_ID[HD2.01]" = "Hero 2";
+"GPCAMERA_MODEL_ID[HD3.01]" = "Hero 3 White Edition";
+"GPCAMERA_MODEL_ID[HD3.02]" = "Hero 3 Silver Edition";
+"GPCAMERA_MODEL_ID[HD3.03]" = "Hero 3 Black Edition";
+"GPCAMERA_MODEL_ID[HD3.09]" = "Hero 3 White Edition";
+"GPCAMERA_MODEL_ID[HD3.10]" = "Hero 3+ Silver Edition";
+"GPCAMERA_MODEL_ID[HD3.11]" = "Hero 3+ Black Edition";
+"GPCAMERA_MODEL_ID[HD3.20]" = "Hero";
+"GPCAMERA_MODEL_ID[HD4.01]" = "Hero 4 Silver Edition";
+"GPCAMERA_MODEL_ID[HD4.02]" = "Hero 4 Black Edition";
+"GPCAMERA_MODEL_ID[HD3.21]" = "Hero+ LCD";
+"GPCAMERA_MODEL_ID[HX1.01]" = "Hero 4 Session";
+
+"GPCAMERA_BURST_RATE_ID" = "Burst Rate";
+"GPCAMERA_BURST_RATE_ID[0]" = "3/1 SEC";
+"GPCAMERA_BURST_RATE_ID[1]" = "5/1 SEC";
+"GPCAMERA_BURST_RATE_ID[2]" = "10/1 SEC";
+"GPCAMERA_BURST_RATE_ID[3]" = "10/2 SEC";
+"GPCAMERA_BURST_RATE_ID[4]" = "30/1 SEC";
+"GPCAMERA_BURST_RATE_ID[5]" = "30/2 SEC";
+"GPCAMERA_BURST_RATE_ID[6]" = "30/3 SEC";
+
+"GPCAMERA_RESET_PROTUNE_ADVANCED_SETTINGS_ID" = "Reset to Default";
+
+"GPCAMERA_DEFAULT_POWER_ON_ID_3D" = "Default at Power Up";
+"GPCAMERA_DEFAULT_POWER_ON_ID_3D[0]" = "3D VIDEO";
+"GPCAMERA_DEFAULT_POWER_ON_ID_3D[1]" = "3D PHOTO";
+"GPCAMERA_DEFAULT_POWER_ON_ID_3D[2]" = "PHOTO BURST";
+"GPCAMERA_DEFAULT_POWER_ON_ID_3D[3]" = "3D PHOTO TIME LAPSE";
+"GPCAMERA_DEFAULT_POWER_ON_ID_3D[5]" = "VIDEO + PHOTO TIME LAPSE";
+
+"GPCAMERA_NETWORK_NAME_ID" = "Network Name";
+"GPCAMERA_NETWORK_NAME_ID" = "Network Name";
+"GPCAMERA_NETWORK_VERSION_ID" = "Version";
+"GPCAMERA_NETWORK_BATTERY_LEVEL_ID" = "Battery Level";
+"GPCAMERA_NETWORK_EDIT_SETTINGS_ID" = "Edit Wi-Fi Settings";
+
+
+"GPCAMERA_GROUP_CAMERA_INFO" = "Camera Info";
+"GPCAMERA_INFO_NAME_ID" = "Name";
+"GPCAMERA_INFO_VERSION_ID" = "Version";
+
+"GPCAMERA_GROUP_3D_BACPAC_INFO" = "3D BacPac Info";
+"GPCAMERA_3D_BACPAC_VERSION_ID" = "Version";
+
+/* On-Boarding */
+"CameraSetupConfirmRePair-Message" = "This camera is already set up. If you continue, the camera will be reset.";
+"CameraSetupConfirmRePair-ButtonConfirm" = "Reset";
+"CameraSetupConfirmRePair-ButtonCancel" = "No Thanks";
+"TurningOnWiFiForCamera %@" = "Turning on Wi-Fi for %@";
+"Searching" = "Searching...";
+"Which device would you like to connect?" = "Which device would you like to connect?";
+"Continue" = "CONTINUE";
+
+"OnBoardingWifiConnectTitle" = "Connect to Your Camera's Wi-Fi\n\n";
+"OnBoardingWifiConnectPreviousSSIDTitle %@" = "Currently connected to network: %@\n\n";
+"OnBoardingWifiConnectSSIDAndPasswordMessage %@ %@ %@" = "1.    Go to Settings > Wi-Fi on your %@.\n\n2.    Select %@ and enter %@ if prompted.\n\n3.    Return to the app.";
+"OnBoardingWifiConnectDefaultSSIDAndPasswordMessage %@" = "1.    Go to Settings > Wi-Fi on your %@.\n\n2.    Select your camera and enter its password if prompted. (goprohero for new cameras).\n\n3.    Return to the app.";
+"OnBoardingWifiConnectPasswordParam" = "your password";
+"OnBoardingWifiConnectSSIDAndPasswordMessageStep1" = "1.";
+"OnBoardingWifiConnectSSIDAndPasswordMessageStep2" = "2.";
+"OnBoardingWifiConnectSSIDAndPasswordMessageStep3" = "3.";
+"OnBoardingWifiConnectTimeoutAlertTitle" = "Oops, That Didn't Work";
+"OnBoardingWifiConnectTimeoutAlertMessage %@" = "There was a problem; try re-connecting to your camera's Wi-Fi in your %@'s Settings.";
+"OnBoardingWifiConnectTimeoutAlertButtonTryAgain" = "Got It";
+"OnBoardingWifiConnectTimeoutAlertButtonSupport" = "Get Support";
+
+"cameraPreviousNameReuse" = "Your camera name must be different from previous.";
+
+"cameraNamePasswordDefault" = "Your camera name and password must not be the default.";
+"cameraNameDefault" = "Your camera name must not be the default.";
+"cameraPasswordDefault" = "Your password must not be the default.";
+
+"cameraNamePasswordMinLength" = "Your camera name and password must be at least 8 characters.";
+"cameraNameMinLength" = "Your camera name must be at least 8 characters.";
+"cameraPasswordMinLength" = "Your password must be at least 8 characters.";
+
+"cameraNamePasswordMaxLength" = "Your camera name and password must not exceed 31 characters.";
+"cameraNameMaxLength" = "Your camera name must not exceed 31 characters.";
+"cameraPasswordMaxLength" = "Your password must not exceed 31 characters.";
+
+"cameraNamePasswordInvalidChar" = "Your camera name and password contain invalid characters.";
+"cameraNameInvalidChar" = "Your camera name contains invalid characters.";
+"cameraPasswordInvalidChar" = "Your camera password contains invalid characters.";
+
+// Halaiwa
+"HalaiwaOnBoardingPage1" = "Turn your camera on. Cycle to Setup mode, then press the Shutter/Select button twice to open the Wireless menu.";
+"HalaiwaOnBoardingPage2" = "Using the Power/Mode button, highlight either \"GoPro App\" or \"RC & App\" and select it.\n\n(If your camera has been paired before, select \"New App\" if prompted. )";
+"HalaiwaOnBoardingPage3 %@" = "Your camera is now in pairing mode. Tap the \"Continue\" button below to begin pairing with your %@.";
+
+
+// RockyPoint
+"RockyPointOnBoardingPage1" = "Press the Info/Wireless button on your camera once, then press it again to open the Wireless menu.";
+"RockyPointOnBoardingPage2" = "Press the Shutter/Select button to select \"APP\" from the menu, then tap \"Find My Camera\" below.";
+
+// HERO4
+"Hero4OnBoardingPage1" = "Turn your camera on. Cycle to Setup mode, then press the Shutter/Select button twice to open the Wireless menu.";
+"Hero4OnBoardingPage2" = "Using the Power/Mode button, highlight either \"GoPro App\" or \"RC & App\" and select it.\n\n(If your camera has been paired before, select \"New App\" if prompted. )";
+"Hero4OnBoardingPage3 %@" = "Your camera is now in pairing mode. Tap the \"Continue\" button below to begin pairing with your %@.";
+
+
+// HERO3+/HERO3/HERO2
+"Hero3OnBoardingPage1" = "Turn your camera on.";
+"Hero3OnBoardingPage2" = "Press the Wi-Fi On/Off button to turn on Wi-Fi (your camera's blue light will flash).";
+
+/*************************************** Partner Localized String ***************************************/
+
+/* BMW */
+"BMWGPTitleCameraPresets" = "Presets";
+"BMWGPTitleCameraModes" = "Camera Modes";
+"BMWGPTitlePowerOff" = "Power Off";
+"BMWGPTitlePowerOn" = "Power On";
+"BMWGPTitleStopRecording" = "Stop Recording";
+"BMWGPTitleStartRecording" = "Start Recording";
+
+"BMWGPErrorNoCamera %@" = "No GoPro camera found. Please reconnect by selecting your camera in your %@'s Wi-Fi Settings.";
+"BMWGPErrorSDCardFull" = "Card Full";
+"BMWGPErrorSDCardMissing" = "No microSD card. Insert a microSD card to continue.";
+"BMWGPErrorSDCardCorrupt" = "microSD Card Error";
+"BMWGPErrorLostConnection" = "The connection to your GoPro camera was lost.";
+"BMWGPErrorSpeedLock" = "Photo and video preview is only available while car is parked.";
+
+/* Camera Preset Settings */
+"CameraPresetSettings_Video_1080p_30fps_Wide" = "Leisure Drive Facing Out";
+"CameraPresetSettings_Video_1080p_24fps_Wide" = "Night Driving";
+"CameraPresetSettings_Video_1080p_60fps_Wide" = "Sport Drive Facing Out";
+"CameraPresetSettings_Video_1080p_30fps_Medium" = "Drive Camera Facing In";
+"CameraPresetSettings_TimeLapse_1sec" = "Winding Road Timelapse";
+"CameraPresetSettings_TimeLapse_5sec" = "Straight Road Timelapse";
+"CameraPresetSettings_Factory_Defaults" = "Factory Defaults";
+
+/* Trouble Shooting */
+"camera wifi not found" = "You are connected to \"%@\" which is not a\n known camera. To connect, go to your Wi-Fi Settings\n and select your camera.";
+"wifi found" = "1. Go to Settings > Wi-Fi on your phone. \n\n 2. Select \"%@\" \n\n 3. Re-enter your Wi-Fi password if prompted. \n\n 4. Return to this app once complete.";
+"hero3 or hero4 not found" = "The camera \"%@\" is not currently in range or does not have wireless on.\n\n Move the camera closer and turn wireless on by long-pressing the side button";
+"rp not found" = "The camera \"%@\" is not currently in range or does not have wireless on.\n\n Move the camera closer and turn wireless on by doing some black magic.";
+"blue light" = "You will know wireless is on when the blue light begins to blink.";
+"camera not found title" = "Make sure %@ is on.";
+"camera not found" = "Press and hold the button on the side of your camera to activate wireless (the wireless icon should appear).";
+"wirelessOn" = "YES, WIRELESS IS ON";
+"mistypePINorNotPairing" = "Check Again";
+"mistypePIN" = "Check Again";
+"PINDoesNotMatchorNotPairing" = "This PIN doesn't match. Double-check the code on your camera's screen. If you didn't enter a PIN, make sure your GoPro is in Pairing Mode.";
+"PINDoesNotMatch" = "This PIN doesn't match. Double-check the code on your GoPro's screen.";
+"epicFail" = "Epic Fail";
+"epicFailMessage" = "There seems to be an issue connecting to your GoPro.";
+"tryAgainCap" = "TRY AGAIN";
+"notInPairingModeTitle" = "We Need To Try Again";
+"notInPairingModeMessage" = "Let's make sure your GoPro is in Pairing Mode.";
+"defaultPairingErrorTitle" = "Let's Try That Again";
+"defaultPairingErrorMessage" = "There was a problem, but we think we can fix it.";
+
+/* Removed for 2.7 release */
+
+/* Media Cloud */
+//"Cloud_CreateAccount_License_Acknowledge" = "I acknowledge that I have read and agree to be bound by the Terms of Use and Privacy Policy";
+//"Cloud_CreateAccount_Terms_of_Use" = "Terms of Use";
+//"Cloud_CreateAccount_Privacy_Policy" = "Privacy Policy";
+//"Cloud_Email_and_Password_Invalid" = "Your email and password are incorrect. Please reenter your information.";
+//"Cloud_Email_Invalid_Format" = "Your email format is incorrect. Please reenter your information.";
+//"Cloud_Password_Invalid_Length" = "Your password must be at least 8 characters.";
+//"Cloud_First_and_Last_Name_Required" = "First and last name are required.";
+//"Cloud_First_Name_Required" = "First name is required.";
+//"Cloud_Last_Name_Required" = "Last name is required.";
+//"Cloud_Successful" = "Successful";
+//"Cloud_Failed" = "Failed";
+//"Cloud_Signing_in" = "Signing in...";
+//"Cloud_Requesting_Password_Reset" = "Requesting password reset...";
+//"Cloud_Reset_Password_Alert_Title" = "Reset Password";
+//"Cloud_Email_Invalid_Alert_Title" = "Invalid Email Address";
+//"Cloud_Email_Invalid_Alert_Message" = "We couldn't find your account with that email address. Please try again or create an account.";
+//"Cloud_Create_Account_Alert_Button_Title" = "Create Account";
+//"Cloud_Try_Again_Alert_Button_Title" = "Try Again";
+//"Cloud_No_Media_Files" = "Upload some GoPro content from your computer to access it here.";
+//"Cloud_No_Internet_Connection" = "Sorry, you need to be online to log in.";

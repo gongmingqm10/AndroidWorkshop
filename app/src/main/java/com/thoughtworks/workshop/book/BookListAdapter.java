@@ -1,6 +1,7 @@
 package com.thoughtworks.workshop.book;
 
 import android.content.Context;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
 import com.thoughtworks.workshop.book.imageloader.ImageLoader;
 import com.thoughtworks.workshop.book.model.Book;
 
